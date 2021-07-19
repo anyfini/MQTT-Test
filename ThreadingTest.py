@@ -12,7 +12,7 @@ def do_something():
 threads = []
 
 for x in range(10):
-    t = threading.Thread(target=do_something())
+    t = threading.Thread(target=do_something)
     t.start()
     threads.append(t)
 

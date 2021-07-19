@@ -20,10 +20,10 @@ def on_message(client, userdata, msg):
     #print("message received", msg.payload)             # falls nur so werden noch um die Nachricht Klammern gesetzt ect.
 
 ###BROKER###
-#broker = "127.0.0.1"                   #Localhost
+broker = "127.0.0.1"                   #Localhost
 #broker = "test.mosquitto.org"          #Online Broker
 #broker = "169.254.173.239"             #Raspi Broker LAN
-broker = "192.168.0.16"
+#broker = "192.168.0.16"                 #Raspi via Wlan
 
 client = mqtt.Client("python1")
 

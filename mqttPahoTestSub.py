@@ -26,3 +26,7 @@ subclient.subscribe("MQTT/Test1")
 time.sleep(10)
 subclient.loop_stop()
 subclient.disconnect()
+
+# todo finish this shiat
+
+
