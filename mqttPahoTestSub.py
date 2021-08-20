@@ -11,8 +11,8 @@ def on_message(client, userdata, msg):
     print("message received :", m_decode)
 
 ###Broker###
-#broker = "localhost"
-broker = "192.168.0.16"
+broker = "localhost"
+#broker = "192.168.0.16"
 
 subclient = mqtt.Client()
 
